@@ -1,8 +1,7 @@
 const dom = {
-    num1: document.getElementById('num-one'),
-    num2: document.getElementById('num-two'),
-    btn: document.getElementById('sum'),
-    output: document.getElementById('output'),
+    playerText: document.getElementById('playerText'),
+    restartBtn: document.getElementById('restartBtn'),
+    boxes: Array.from(document.getElementsByClassName('box')),
 };
 
 export default dom;
